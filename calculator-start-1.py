@@ -25,9 +25,6 @@ def calculator():
     num1 = int(input("What's the first number?: "))
     for operation in operations:
         print(operation) 
-    # num2 = int(input("What's the second number?: "))
-    # calculation_function = operations[operation_symbol]
-    # first_answer = calculation_function(num1, num2)
     stop_calculation = False
     while stop_calculation == False:
         
